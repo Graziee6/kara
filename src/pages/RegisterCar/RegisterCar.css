@@ -1,0 +1,43 @@
+#gridDiv {
+  width: 50vw;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 10px;
+}
+
+#gridDiv > * {
+  width: 180px;
+}
+
+#left-registerCar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main {
+  width: 100vw;
+  min-height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+#car-main-left,
+#car-main-right {
+  width: 50vw;
+}
+#car-main-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#car-heading {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 26px;
+  margin: 0 0 5% 0;
+}
