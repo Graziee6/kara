@@ -1,0 +1,15 @@
+#smallField {
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+}
+
+#smallInput {
+  height: 40px;
+  width: 180px;
+  max-width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
