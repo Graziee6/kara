@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div.formField {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 5% 0;
+}
+
+#inputLabel {
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+#inputField {
+  height: 40px;
+  width: 400px;
+  max-width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#inputField:focus {
+  border: none;
+  outline: 2px solid #66023e;
+}
